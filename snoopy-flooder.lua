@@ -13,6 +13,6 @@ local amount_of_msgs = math.huge
 local delay = 0.5
 
 while true do
-    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("uhmmm", "All")
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("MESSAGE", "All")
     wait(delay)
 end
