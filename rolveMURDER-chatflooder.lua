@@ -11,8 +11,3 @@ humanoid:ChangeState(Enum.HumanoidStateType.Dead)
 
 local amount_of_msgs = math.huge
 local delay = 0.5
-
-while true do
-    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("TEXT", "All")
-    wait(delay)
-end
